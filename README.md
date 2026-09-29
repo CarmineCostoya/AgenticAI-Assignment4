@@ -125,6 +125,6 @@ A practical next improvement is a local entailment verifier that compares each g
 5. Run `wiki eval run --offline` and capture the terminal session.
 6. Turn Wi-Fi back on only after the evidence files are saved.
 
-No model weights, virtual environment, caches, credentials, or rebuildable SQLite database are committed. The final publication step is to push this local `main` branch to a public remote and confirm access in a signed-out browser.
+No model weights, virtual environment, caches, credentials, or rebuildable SQLite database are committed. The completed submission is published at [CarmineCostoya/AgenticAI-Assignment4](https://github.com/CarmineCostoya/AgenticAI-Assignment4), and public access was confirmed with an unauthenticated HTTP request.
 
 The committed final evaluation was run locally with Wi-Fi on, as explicitly permitted during the final capture, and is honestly marked `offline: false`; Ollama was still the only model endpoint. The `--offline` gate is implemented and refuses to run unless macOS confirms Wi-Fi is off. A grader can reproduce the stricter offline procedure above after the model has been pulled.
