@@ -6,7 +6,7 @@
     "architecture": "arm64",
     "chip": "Apple M1",
     "cores": "proc 8:0:4:4",
-    "free_disk_gib": 50.32,
+    "free_disk_gib": 40.2,
     "memory": "8 GB",
     "model_identifier": "MacBookAir10,1",
     "model_name": "MacBook Air",
@@ -20,11 +20,11 @@
   "model": "gemma3:1b-it-q4_K_M",
   "network": {
     "wifi_device": "en0",
-    "wifi_off": false,
-    "wifi_status": "Wi-Fi Power (en0): On"
+    "wifi_off": true,
+    "wifi_status": "Wi-Fi Power (en0): Off"
   },
-  "offline_confirmed": null,
-  "offline_requested": false,
+  "offline_confirmed": true,
+  "offline_requested": true,
   "ollama_available": true,
   "required_checks_pass": true,
   "sources": [

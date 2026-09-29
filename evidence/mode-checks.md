@@ -1,8 +1,8 @@
 # Chat and Search Mode Checks
 
-- Captured: `2026-09-29T04:07:42+00:00`
+- Captured: `2026-09-29T15:14:27+00:00`
 - Execution: `local`
-- Offline flag: `false`
+- Offline flag: `true`
 - Model: `gemma3:1b-it-q4_K_M`
 
 ## Chat Checks
@@ -49,7 +49,7 @@ For brainstorming only, assume healthcare spending will be 30% of GDP in 2034.
 
 ### Assistant
 
-Suggestion: Research projected healthcare spending trends.
+Suggestion:  Research current healthcare spending projections and potential impact of economic trends.
 
 - Retrieval used: `false`
 - Routing reason: Conversational/meta turn does not need notes.
@@ -136,4 +136,4 @@ This ask call received no chat-history argument; its citations come only from th
 - Follow-up used conversation without retrieval: `true`
 - Hypothetical assumption stayed outside the evidence store: `true`
 - Search generated no synthesized answer: `true`
-- Human review: `PASS — the capability answer matches implemented commands; plan/follow-up continuity uses no retrieval or invented personal facts; raw search is verbatim; standalone ask ignores the 30% chat assumption and returns the source's 20.6% projection.`
+- Human review: `PASS — capability chat and the plan follow-up used no retrieval; raw search remained verbatim; the standalone ask ignored the fabricated 30% chat assumption and returned the source's 20.6% projection.`

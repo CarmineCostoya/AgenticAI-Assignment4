@@ -1,9 +1,9 @@
 # ask-04 Evidence Card
 
-- Captured: `2026-09-29T04:07:42+00:00`
+- Captured: `2026-09-29T15:14:27+00:00`
 - Mode: `ask`
 - Execution: `local`
-- Offline flag: `false`
+- Offline flag: `true`
 - Model: `gemma3:1b-it-q4_K_M`
 - Expected behavior: State that the local evidence is insufficient.
 - Expected sources: `[]`
@@ -97,5 +97,5 @@ Insufficient evidence: the local sources do not contain enough relevant support 
 - Automated structural assessment: **PASS**
 - Retrieved source IDs: `["reimbursement-value-2026-09-21", "structure-costs-2026-08-31", "study-guide-2026"]`
 - Citation validation: `not applicable or insufficient evidence`
-- Human claim-to-passage review: `PASS — none of the retrieved passages mentions Chilean patients or the requested percentage, so the insufficient-evidence response is correct.`
+- Human claim-to-passage review: `PASS — none of the retrieved passages identifies Chilean patients or the requested same-day-care percentage, so the insufficient-evidence response is correct.`
 - Notes: Required named term(s) not present: chilean.

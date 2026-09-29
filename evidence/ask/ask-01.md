@@ -1,9 +1,9 @@
 # ask-01 Evidence Card
 
-- Captured: `2026-09-29T04:07:34+00:00`
+- Captured: `2026-09-29T15:14:15+00:00`
 - Mode: `ask`
 - Execution: `local`
-- Offline flag: `false`
+- Offline flag: `true`
 - Model: `gemma3:1b-it-q4_K_M`
 - Expected behavior: Give a grounded list of comparison dimensions.
 - Expected sources: `["study-guide-2026", "structure-costs-2026-08-31"]`
@@ -91,13 +91,13 @@ Role of government, coverage and financing, benefits, delivery organization, pay
 ```json
 {
   "generated_tokens": 130,
-  "load_duration_seconds": 0.004,
+  "load_duration_seconds": 1.878,
   "model_size_mb": 838.51,
   "model_vram_mb": 838.51,
-  "ollama_rss_mb": 1049.48,
+  "ollama_rss_mb": 1134.44,
   "prompt_tokens": 1894,
-  "total_duration_seconds": 2.96,
-  "wall_seconds": 2.964
+  "total_duration_seconds": 6.621,
+  "wall_seconds": 6.628
 }
 ```
 
@@ -106,5 +106,5 @@ Role of government, coverage and financing, benefits, delivery organization, pay
 - Automated structural assessment: **PASS**
 - Retrieved source IDs: `["structure-costs-2026-08-31", "study-guide-2026"]`
 - Citation validation: `passed`
-- Human claim-to-passage review: `PASS — the complete 11-dimension list is stated directly in S1 and independently mirrored on slide 3 (S2).`
+- Human claim-to-passage review: `PASS — the complete comparison list is stated directly in S1 and independently mirrored by the Aug. 31 deck on slide 3 (S2).`
 - Notes: The passages discuss dimensions used to compare health systems, specifically the role of government, coverage, financing, benefits, delivery organization, payment, cost containment, equity, technology, quality, and outcomes.  These dimensions are presented in the text.

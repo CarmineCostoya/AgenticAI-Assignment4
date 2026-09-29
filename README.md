@@ -25,6 +25,8 @@ ollama pull gemma3:1b-it-q4_K_M
 
 The exact model tag is required. The [official Ollama model entry](https://ollama.com/library/gemma3:1b-it-q4_K_M) describes an approximately 815 MB, 32K-context quantized Gemma 3 model. This application deliberately limits requests to `num_ctx=8192` to leave memory headroom on the 8 GB machine.
 
+The final run used Ollama **0.34.4** on a MacBook Air (`MacBookAir10,1`) running macOS 27.0 with an 8-core Apple M1 CPU, integrated 7-core Apple M1 GPU, and **8 GB of unified memory** (no dedicated VRAM). Immediately after the run, macOS `memory_pressure -Q` reported 29% system memory free, approximately **2.32 GiB**, and the project volume had **40.2 GiB** free. The runtime snapshot used Python 3.9.6 and SQLite 3.54.0; the committed doctor record preserves the reproducible hardware, model, storage, and network checks.
+
 ## Commands
 
 ```text
@@ -127,4 +129,4 @@ A practical next improvement is a local entailment verifier that compares each g
 
 No model weights, virtual environment, caches, credentials, or rebuildable SQLite database are committed. The completed submission is published at [CarmineCostoya/AgenticAI-Assignment4](https://github.com/CarmineCostoya/AgenticAI-Assignment4), and public access was confirmed with an unauthenticated HTTP request.
 
-The committed final evaluation was run locally with Wi-Fi on, as explicitly permitted during the final capture, and is honestly marked `offline: false`; Ollama was still the only model endpoint. The `--offline` gate is implemented and refuses to run unless macOS confirms Wi-Fi is off. A grader can reproduce the stricter offline procedure above after the model has been pulled.
+The committed final evaluation was run after Wi-Fi was disabled and the CLI was restarted. All four ask cards and the chat/search record are marked `offline: true`; the doctor snapshot records `wifi_off`, `offline_requested`, and `offline_confirmed` as true. The transcript also records Ollama 0.34.4, duplicate-free ingestion, the four visible ask calls, raw search, chat continuity, ask/chat isolation, and the successful strict `wiki eval run --offline` result.

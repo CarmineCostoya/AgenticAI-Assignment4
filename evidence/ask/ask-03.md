@@ -1,9 +1,9 @@
 # ask-03 Evidence Card
 
-- Captured: `2026-09-29T04:07:42+00:00`
+- Captured: `2026-09-29T15:14:27+00:00`
 - Mode: `ask`
 - Execution: `local`
-- Offline flag: `false`
+- Offline flag: `true`
 - Model: `gemma3:1b-it-q4_K_M`
 - Expected behavior: Explain the shift from volume payment toward quality, savings, downside risk, and population accountability.
 - Expected sources: `["study-guide-2026", "reimbursement-value-2026-09-21"]`
@@ -124,10 +124,10 @@ Value-based models increase accountability for cost and quality, but require cap
   "load_duration_seconds": 0.002,
   "model_size_mb": 838.51,
   "model_vram_mb": 838.51,
-  "ollama_rss_mb": 1174.81,
+  "ollama_rss_mb": 1099.34,
   "prompt_tokens": 2351,
-  "total_duration_seconds": 4.727,
-  "wall_seconds": 4.729
+  "total_duration_seconds": 6.921,
+  "wall_seconds": 6.926
 }
 ```
 
@@ -136,5 +136,5 @@ Value-based models increase accountability for cost and quality, but require cap
 - Automated structural assessment: **PASS**
 - Retrieved source IDs: `["reimbursement-value-2026-09-21", "study-guide-2026"]`
 - Citation validation: `passed`
-- Human claim-to-passage review: `PASS — S1 directly supports increased cost/quality accountability and S2 directly supports the capability and uncontrollable-risk qualification.`
+- Human claim-to-passage review: `PASS — slide 11 (S1) and the study guide (S2) directly support increased accountability for cost and quality, along with the capabilities and risk required under value-based payment.`
 - Notes: The passages discuss the shift from fee-for-service to value-based payment, focusing on accountability, risk, and outcomes. They detail the challenges of transitioning to a new payment model, including the need for organizations to define populations, services, time horizons, and accountability, and

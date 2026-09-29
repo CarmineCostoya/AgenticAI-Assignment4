@@ -1,9 +1,9 @@
 # ask-02 Evidence Card
 
-- Captured: `2026-09-29T04:07:38+00:00`
+- Captured: `2026-09-29T15:14:20+00:00`
 - Mode: `ask`
 - Execution: `local`
-- Offline flag: `false`
+- Offline flag: `true`
 - Model: `gemma3:1b-it-q4_K_M`
 - Expected behavior: Explain that approval is distinct from coverage, reimbursement, adoption, and affordability.
 - Expected sources: `["study-guide-2026", "reimbursement-value-2026-09-21"]`
@@ -107,13 +107,13 @@ Regulatory approval, coverage, reimbursement, provider adoption, and patient aff
 ```json
 {
   "generated_tokens": 142,
-  "load_duration_seconds": 0.002,
+  "load_duration_seconds": 0.004,
   "model_size_mb": 838.51,
   "model_vram_mb": 838.51,
-  "ollama_rss_mb": 1130.45,
+  "ollama_rss_mb": 1091.94,
   "prompt_tokens": 2480,
-  "total_duration_seconds": 3.06,
-  "wall_seconds": 3.06
+  "total_duration_seconds": 5.488,
+  "wall_seconds": 5.492
 }
 ```
 
@@ -122,5 +122,5 @@ Regulatory approval, coverage, reimbursement, provider adoption, and patient aff
 - Automated structural assessment: **PASS**
 - Retrieved source IDs: `["reimbursement-value-2026-09-21", "study-guide-2026"]`
 - Citation validation: `passed`
-- Human claim-to-passage review: `PASS — the rendered gate list is stated verbatim in S1; the expected reimbursement hurdle appears on retrieved slide 6 (S2).`
+- Human claim-to-passage review: `PASS — S1 directly identifies regulatory approval, coverage, reimbursement, provider adoption, and affordability as separate access gates; the Sep. 21 deck independently supports the access barrier in the retrieved packet.`
 - Notes: The passages discuss the multiple gates and requirements for true access to healthcare services, including coverage, reimbursement, provider adoption, and affordability. They highlight that simply existing doesn't guarantee access.

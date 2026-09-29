@@ -1,91 +1,765 @@
-^D
-$ wiki --help
-usage: wiki
-       [-h]
-       [--version]
-       {ingest,search,ask,chat,review,doctor,eval}
-       ...
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://MacBook-Air-de-Carmine.local/Users/carminecostoya/Documents/Berkeley/Academics/Fall%202026/AI/Agentic%20AI/Agentic%20AI%20-%20Assignment%204]2;carminecostoya@MacBook-Air-de-Carmine]1;.. Assignment 4]7;file://MacBook-Air-de-Carmine.local/Users/carminecostoya/Documents/Berkeley/Academics/Fall%202026/AI/Agentic%20AI/Agentic%20AI%20-%20Assignment%204\[0m[27m[24m[J[01;32m➜  [36mAgentic AI - Assignment 4[00m [K[?1h=[?2004h[0m[27m[24m[J[01;32m➜  [36mAgentic AI - Assignment 4[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K
+[K[K
+[K[7mollama[27m[27mo[27ml[27ml[27ma[27mm[27ma[?1l>[?2004l
+]2;ollama]1;ollama]11;?\[6n[?25l[?2004h[1mOllama [38;5;250m0.34.4[0m[0m                                       [K
+                                                    [K
+[1;48;5;236m▸ Launch ChatGPT[0m [38;5;250m(gemma3:1b-it-q4_K_M)[0m              [K
+    [38;5;246mUse Ollama models in ChatGPT[0m                    [K
+                                                    [K
+  Launch Claude Code [3;38;5;246m(install)[0m                      [K
+    [38;5;246mAnthropic's coding tool with subagents[0m          [K
+                                                    [K
+  Launch OpenCode [3;38;5;246m(install)[0m                         [K
+    [38;5;246mAnomaly's open-source coding agent[0m              [K
+                                                    [K
+  Launch Hermes Agent [3;38;5;246m(install)[0m                     [K
+    [38;5;246mSelf-improving AI agent built by Nous Research[0m  [K
+                                                    [K
+  Launch OpenClaw [3;38;5;246m(install)[0m                         [K
+    [38;5;246mPersonal AI with 100+ skills[0m                    [K
+                                                    [K
+  More...                                           [K
+    [38;5;246mShow additional integrations[0m                    [K
+                                                    [K
+                                                    [K
+[38;5;244m↑/↓ navigate • enter launch • → configure • esc quit[0m[K[21A
 
-Offline
-healthcare
-personal
-wiki using
-local
-Gemma,
-SQLite
-FTS5, and
-verifiable
-citations.
+  Launch ChatGPT                                    [K
 
-positional arguments:
-  {ingest,search,ask,chat,review,doctor,eval}
-    ingest
-    Validate
-    raw
-    sources,
-    rebuild
-    retrieval,
-    and
-    generate
-    wiki pages
-    search
-    Show
-    matching
-    original
-    passages
-    without
-    calling
-    Gemma
-    ask
-    Answer a
-    standalone
-    factual
-    question
-    from
-    retrieved
-    evidence
-    chat
-    Start the
-    practical
-    study-
-    partner
-    chat
-    review
-    Inspect and
-    approve
-    generated
-    wiki pages
-    doctor
-    Check
-    sources,
-    index,
-    local
-    model,
-    device, and
-    wiki
-    integrity
-    eval
-    Run and
-    save the
-    fixed
-    assignment
-    evaluation
 
-optional arguments:
-  -h, --help
-    show this
-    help
-    message and
-    exit
-  --version
-    show
-    program's
-    version
-    number and
-    exit
+[1;48;5;236m▸ Launch Claude Code [3;38;5;246m(install)[0m[0m                      [K
+    [38;5;246mPress enter to install[0m                          [K
 
-$ wiki doctor  # local checks; Wi-Fi state recorded honestly
-{
+
+
+
+
+
+
+
+
+
+
+
+
+
+[21A
+
+
+
+
+  Launch Claude Code [3;38;5;246m(install)[0m                      [K
+    [38;5;246mAnthropic's coding tool with subagents[0m          [K
+
+[1;48;5;236m▸ Launch OpenCode [3;38;5;246m(install)[0m[0m                         [K
+    [38;5;246mPress enter to install[0m                          [K
+
+
+
+
+
+
+
+
+
+
+
+[21A
+
+
+
+
+
+
+
+  Launch OpenCode [3;38;5;246m(install)[0m                         [K
+    [38;5;246mAnomaly's open-source coding agent[0m              [K
+
+[1;48;5;236m▸ Launch Her
+[K[K
+[K[7mollama[27m[27mo[27ml[27ml[27ma[27mm[27ma[?1l>[?2004l
+]2;ollama]1;ollama]11;?\[6n[?25l[?2004h[1mOllama [38;5;250m0.34.4[0m[0m                                       [K
+                                                    [K
+[1;48;5;236m▸ Launch ChatGPT[0m [38;5;250m(gemma3:1b-it-q4_K_M)[0m              [K
+    [38;5;246mUse Ollama models in ChatGPT[0m                    [K
+                                                    [K
+  Launch Claude Code [3;38;5;246m(install)[0m                      [K
+    [38;5;246mAnthropic's coding tool with subagents[0m          [K
+                                                    [K
+  Launch OpenCode [3;38;5;246m(install)[0m                         [K
+    [38;5;246mAnomaly's open-source coding agent[0m              [K
+                                                    [K
+  Launch Hermes Agent [3;38;5;246m(install)[0m                     [K
+    [38;5;246mSelf            [K
+  [38;5;246mLaunch Oh My Pi [3;38;5;246m(not installed)[0m[0m                       [K
+    [38;5;246mAI coding agent with IDE integration[0m                [K
+                                                        [K
+  Launch Cline [3;38;5;246m(install)[0m                                [K
+    [38;5;246mAutonomous coding agent with parallel execution[0m     [K
+                                                        [K
+  [38;5;246mLaunch Droid [3;38;5;246m(not installed)[0m[0m                          [K
+    [38;5;246mFactory's coding agent across terminal and IDEs[0m     [K
+                                                        [K
+  Launch DeepSeek Harness [3;38;5;246m(install)[0m                     [K
+    [38;5;246mDeepSeek's open-source agent harness[0m                [K
+                                                        [K
+  Launch Pi [3;38;5;246m(install)[0m                                   [K
+    [38;5;246mMinimal AI agent toolkit with plugin support[0m        [K
+                                                        [K
+  [38;5;246mLaunch Poolside [3;38;5;246m(not installed)[0m[0m                       [K
+    [38;5;246mPoolside's software agent for enterprise development[0m[K
+                                                        [K
+  Launch Qwen Code [3;38;5;246m(install)[0m                            [K
+    [38;5;246mQwen's AI coding agent with tool use[0m                [K
+                                                        [K
+                                                        [K
+[38;5;244m↑/↓ navigate • enter launch • → configure • esc quit[0m    [K[29A                                                         [K
+[1;38;5;246;48;5;236m▸ Launch Codex CLI [3;38;5;246m(not installed)[0m[0m                       [K
+    [38;5;246mInstall from ]8;;https://developers.openai.com/codex/cli/\https://developers.openai.com/codex/cli/]8;;\[0m[K
+                                                         [K
+  [38;5;246mLaunch Copilot CLI [3;38;5;246m(not installed)[0m[0m                     [K
+    [38;5;246mGitHub's AI coding agent for the terminal[0m            [K
+                                                         [K
+  [38;5;246mLaunch Oh My Pi [3;38;5;246m(not installed)[0m[0m                        [K
+    [38;5;246mAI coding agent with IDE integration[0m                 [K
+                                                         [K
+  Launch Cline [3;38;5;246m(install)[0m                                 [K
+    [38;5;246mAutonomous coding agent with parallel execution[0m      [K
+                                                         [K
+  [38;5;246mLaunch Droid [3;38;5;246m(not installed)[0m[0m                           [K
+    [38;5;246mFactory's coding agent across terminal and IDEs[0m      [K
+                                                         [K
+  Launch DeepSeek Harness [3;38;5;246m(install)[0m                      [K
+    [38;5;246mDeepSeek's opHarness [3;38;5;246m(install)[0m                     [K
+    [38;5;246mDeepSeek's open-source agent harness[0m                [K
+                                                        [K
+  Launch Pi [3;38;5;246m(install)[0m                                   [K
+    [38;5;246mMinimal AI agent toolkit with plugin support[0m        [K
+                                                        [K
+  [38;5;246mLaunch Poolside [3;38;5;246m(not installed)[0m[0m                       [K
+    [38;5;246mPoolside's software agent for enterprise development[0m[K
+                                                        [K
+  Launch Qwen Code [3;38;5;246m(install)[0m                            [K
+    [38;5;246mQwen's AI coding agent with tool use[0m                [K
+                                                        [K
+                                                        [K
+[38;5;244m↑/↓ navigate • enter launch • → configure • esc qled)[0m[0m                       [K
+    [38;5;246mOpenAI's open-source coding agent[0m                    [K
+
+[1;38;5;246;48;5;236m▸ Launch Copilot CLI [3;38;5;246m(not installed)[0m[0m                     [K
+    [38;5;246mInstall from ]8;;https://github.com/features/copilot/cli/\https://github.com/features/copilot/cli/]8;;\[0m[K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[29A                                                        [K
+  [38;5;246mLaunch Codex CLI [3;38;5;246m(not installed)[0m[0m                      [K
+    [38;5;246mOpenAI's open-source coding agent[0m                   [K
+                                                        [K
+  [38;5;246mLaunch Copilot CLI [3;38;5;246m(not installed)[0m[0m                    [K
+    [38;5;246mGitHub's AI coding agent for the terminal[0m           [K
+                                                        [K
+[1;38;5;246;48;5;236m▸ Launch Oh My Pi [3;38;5;246m(not installed)[0m[0m                       [K
+    [38;5;246mInstall from ]8;;https://omp.sh\https://omp.sh]8;;\[0m                         [K
+                                                        [K
+  Launch Cline [3;38;5;246m(install)[0m                                [K
+    [38;5;246mAutonomous coding agent with parallel execution[0m     [K
+                                                        [K
+  [38;5;246mLaunch Droid [3;38;5;246m(not installed)[0m[0m                          [K
+    [38;5;246mFactory's coding agent across terminal and IDEs[0m     [K
+                                                        [K
+  Launch DeepSeek Harness [3;38;5;246m(install)[0m                     [K
+    [38;5;246mDeepSeek's open-source agent harness[0m                [K
+                                                        [K
+  Launch Pi [3;38;5;246m(install)[0m                                   [K
+    [38;5;246mMinimal AI agent toolkit with plugin support[0m        [K
+                                                        [K
+  [38;5;246mLaunch Poolside [3;38;5;246m(not installed)[0m[0m                       [K
+    [38;5;246mPoolside's software agent for enterprise development[0m[K
+                                                        [K
+  Launch Qwen Code [3;38;5;246m(install)[0m                            [K
+    [38;5;246mQwen's AI coding agent with tool use[0m                [K
+                                                        [K
+                                                        [K
+[38;5;244m↑/↓ navigate • enter launch • → configure • esc quit[0m    [K[29A
+
+
+
+
+
+
+  [38;5;246mLaunch Oh My Pi [3;38;5;246m(not installed)[0m[0m                       [K
+    [38;5;246mAI coding agent with IDE integration[0m                [K
+
+[1;48;5;236m▸ Launch Cline [3;38;5;246m(install)[0m[0m                                [K
+    [38;5;246mPress enter to install[0m                              [K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[29A                                                                       [K
+  [38;3;38;5;246m(not installed)[0m[0m                    [K
+    [38;5;246mGitHub's AI coding agent for the terminal[0m           [K
+                                                        [K
+[1;38;5;246;48;5;236m▸ Launch Oh My Pi [3;38;5;246m(not installed)[0m[0m                       [K
+    [38;5;246mInstall from ]8;;https://omp.sh\https://omp.sh]8;;\[0m                         [K
+                                                        [K
+  Launch Cline [3;38;5;246m(install)[0m                                [K
+    [38;5;246mAutonomous coding agent with parallel execution[0m     [K
+                                                        [K
+  [38;5;246mLaunch Droid [3;38;5;246m(not installed)[0m[0m                          [K
+    [38;5;246mFactory's coding agent across terminal and IDEs[0m     [K
+                                                        [K
+  Launch DeepSeek Harness [3;38;5;246m(install)[0m                     [K
+       [K
+                                                                       [K
+[1;38;5;246;48;5;236m▸ Launch Droid [3;38;5;246m(not installed)[0m[0m                                         [K
+    [38;5;246mInstall from ]8;;https://docs.factory.ai/cli/getting-started/quickstart\https://docs.factory.ai/cli/getting-started/quickstart]8;;\[0m[K
+                                                                       [K
+  Launch DeepSeek Harness [3;38;5;246m(install)[0m                                    [K
+    [38;5;246mDeepSeek's open-source agent harness[0m                               [K
+                                                                       [K
+  Launch Pi [3;38;5;246m(install)[0m                                                  [K
+    [38;5;246mMinimal AI agent toolkit with plugin support[0m                       [K
+                                                                       [K
+  [38;5;246mLaunch Poolside [3;38;5;246m(not installed)[0m[0m                                      [K
+    [38;5;246mPoolside's software agent for enterprise development[0m               [K
+                                                                       [K
+  Launch Qwen Code [3;38;5;246m(install)[0m                                           [K
+    [38;5;246mQwen's AI coding agent with tool use[0m                               [K
+                                                                       [K
+                                                                       [K
+[38;5;244m↑/↓ navigate • enter launch • → configure • esc quit[0m                   [K[29A                                                        [K
+  [38;5;246mLaunch Codex CLI [3;38;5;246m(not installed)[0m[0m                      [K
+    [38;5;246mOpenAI's open-source coding agent[0m                   [K
+                                                        [K
+  [38;5;246mLaunch Copilot CLI [3;38;5;246m(not installed)[0m[0m                    [K
+    [38;5;246mGitHub's AI coding agent for the terminal[0m           [K
+                                                        [K
+  [38;5;246mLaunch Oh My Pi [3;38;5;246m(not installed)[0m[0m                       [K
+    [38;5;246mAI coding agent with IDE integration[0m                [K
+                                                        [K
+  Launch Cline [3;38;5;246m(install)[0m                                [K
+    [38;5;246mAutonomous coding agent with parallel execution[0m     [K
+                                                        [K
+  [38;5;246mLaunch Droid [3;38;5;246m(not installed)[0m[0m                          [K
+    [38;5;246mFactory's coding agent across terminal and IDEs[0m     [K
+                                                        [K
+[1;48;5;236m▸ Launch DeepSeek Harness [3;38;5;246m(install)[0m[0m                     [K
+    [38;5;246mPress enter to install[0m                              [K
+                                                       ch Pi [3;38;5;246m(install)[0m                                                  [K
+    [38;5;246mMinimal AI agent toolkit with plugin support[0m                       [K
+                                                                       [K
+  [38;5;246mLaunch Poolside [3;38;5;246m(not installed)[0m[0m                                      [K
+    [38;5;246mPoolside's software agent for enterprise development[0m               [K
+                                                                       [K
+  Launch Qwen Code [3;38;5;246m(install)[0m                                           [K
+    [38;5;246mQwen's AI coding agent with tool use[0m                               [K
+                                                                       [K
+                                                                       [K
+[38;5;244m↑/↓ navigate • enter launch • → configure • esc quit[0m                   [K[29A                  [1;48;5;236m▸ Launch Pi [3;38;5;246m(install)[0m[0m                                   [K
+    [38;5;246mPress enter to install[0m                              [K
+
+
+
+
+
+
+
+
+[29A                                                    [K
+  [38;5;246mLaunch Codex CLI [3;38;5;246m(not installed)[0m[0m                  [K
+    [38;5;246mOpenAI's open-source coding agent[0m               [K
+                                                    [K
+  [38;5;246mLaunch Copilot CLI [3;38;5;246m(not installed)[0m[0m                [K
+    [38;5;246mGitHub's AI coding agent for the terminal[0m       [K
+                                                    [K
+  [38;5;246mLaunch Oh My Pi [3;38;5;246m(not installed)[0m[0m                   [K
+    [38;5;246mAI coding agent with IDE integration[0m            [K
+                                                    [K
+  Launch Cline [3;38;5;246m(install)[0m                            [K
+    [38;5;246mAutonomous coding agent with parallel execution[0m [K
+                                                    [K
+  [38;5;246mLaunch Droid [3;38;5;246m(not installed)[0m[0m                      [K
+    [38;5;246mFactory's coding agent across terminal and IDEs[0m [K
+                                                    [K
+  Launch DeepSeek Harness [3;38;5;246m(install)[0m                 [K
+    [38;5;246mDeepSeek's open-source agent harness[0m            [K
+                                                    [K
+  Launch Pi [3;38;5;246m(install)[0m                               [K
+    [38;5;246mMinimal AI agent toolkit with plugin support[0m    [K
+                                                    [K
+[1;38;5;246;48;5;236m▸ Launch Poolside [3;38;5;246m(not installed)[0m[0m                   [K
+    [38;5;246mInstall from ]8;;https://github.com/poolsideai/pool\https://github.com/poolsideai/pool]8;;\[0m [K
+                                                    [K
+  Launch Qwen Code [3;38;5;246m(install)[0m                        [K
+    [38;5;246mQwen's AI coding agent with tool use[0m            [K
+                                                    [K
+                                                    [K
+[38;5;244m↑/↓ navigate • enter launch • → configure • esc quit[0m[K[29A                                                        [K
+  [38;5;246mLaunch Codex CLI [3;38;5;246m(not installed)[0m[0m                      [K
+    [38;5;246mOpenAI's open-source coding agent[0m                   [K
+                                                        [K
+  [38;5;246mLaunch Copilot CLI [3;38;5;246m(not installed)[0m[0m                    [K
+    [38;5;246mGitHub's AI coding agent for the terminal[0m           [K
+                                                        [K
+  [38;5;246mLaunch Oh My Pi [3;38;5;246m(not installed)[0m[0m                       [K
+    [38;5;246mAI coding agent with IDE integration[0m                [K
+                                                        [K
+  Launch Cline [3;38;5;246m(install)[0m                                [K
+    [38;5;246mAutonomous coding agent with parallel execution[0m     [K
+                                                        [K
+  [38;5;246mLaunch Droid [3;38;5;246m(not installed)[0m[0m                          [K
+    [38;5;246mFactory's coding agent across terminal and IDEs[0m     [K
+                                                        [K
+  Launch DeepSeek Harness [3;38;5;246m(install)[0m                     [K
+    [38;5;246mDeepSeek's open-source agent harness[0m                [K
+                                                        [K
+  Launch Pi [3;38;5;246m(install)[0m                                   [K
+    [38;5;246mMinimal AI agent toolkit with plugin support[0m        [K
+                                                        [K
+  [38;5;246mLaunch Poolside [3;38;5;246m(not installed)[0m[0m                       [K
+    [38;5;246mPoolside's software agent for enterprise development[0m[K
+                                                        [K
+[1;48;5;236m▸ Launch Qwen Code [3;38;5;246m(install)[0m[0m                            [K
+    [38;5;246mPress enter to install[0m                              [K
+                                                        [K
+                                                        [K
+[38;5;244m↑/↓ navigate • enter launch • → configure • esc quit[0m    [K[29A [K[J[2K[?2004l[?25h[?1002l[?1003l[?1006l[?25l[?2004h[1mQwen Code is not installed. Install now?[0m [K
+                                         [K
+  [1;48;5;236m Yes [0m  [38;5;246m No [0m                            [K
+                                         [K
+[38;5;244m←/→ navigate • enter confirm • esc cancel[0m[K[4A [K[J[2K[?2004l[?25h[?1002l[?1003l[?1006l[?25l[?2004h                                                        [K
+  [38;5;246mLaunch Codex CLI [3;38;5;246m(not installed)[0m[0m                      [K
+    [38;5;246mOpenAI's open-source coding agent[0m                   [K
+                                                        [K
+  [38;5;246mLaunch Copilot CLI [3;38;5;246m(not installed)[0m[0m                    [K
+    [38;5;246mGitHub's AI coding agent for the terminal[0m           [K
+                                                        [K
+  [38;5;246mLaunch Oh My Pi [3;38;5;246m(not installed)[0m[0m                       [K
+    [38;5;246mAI coding agent with IDE integration[0m                [K
+                                                        [K
+  Launch Cline [3;38;5;246m(install)[0m                                [K
+    [38;5;246mAutonomous coding agent with parallel execution[0m     [K
+                                                        [K
+  [38;5;246mLaunch Droid [3;38;5;246m(not installed)[0m[0m                          [K
+    [38;5;246mFactory's coding agent across terminal and IDEs[0m     [K
+                                                        [K
+  Launch DeepSeek Harness [3;38;5;246m(install)[0m                     [K
+    [38;5;246mDeepSeek's open-source agent harness[0m                [K
+                                                        [K
+  Launch Pi [3;38;5;246m(install)[0m                                   [K
+    [38;5;246mMinimal AI agent toolkit with plugin support[0m        [K
+                                                        [K
+  [38;5;246mLaunch Poolside [3;38;5;246m(not installed)[0m[0m                       [K
+    [38;5;246mPoolside's software agent for enterprise development[0m[K
+                                                        [K
+[1;48;5;236m▸ Launch Qwen Code [3;38;5;246m(install)[0m[0m                            [K
+    [38;5;246mPress enter to install[0m                              [K
+                                                        [K
+                                                        [K
+[38;5;244m↑/↓ navigate • enter launch • → configure • esc quit[0m    [K[29A                                                    [K
+  [38;5;246mLaunch Codex CLI [3;38;5;246m(not installed)[0m[0m                  [K
+    [38;5;246mOpenAI's open-source coding agent[0m               [K
+                                                    [K
+  [38;5;246mLaunch Copilot CLI [3;38;5;246m(not installed)[0m[0m                [K
+    [38;5;246mGitHub's AI coding agent for the terminal[0m       [K
+                                                    [K
+  [38;5;246mLaunch Oh My Pi [3;38;5;246m(not installed)[0m[0m                   [K
+    [38;5;246mAI coding agent with IDE integration[0m            [K
+                                                    [K
+  Launch Cline [3;38;5;246m(install)[0m                            [K
+    [38;5;246mAutonomous coding agent with parallel execution[0m [K
+                                                    [K
+  [38;5;246mLaunch Droid [3;38;5;246m(not installed)[0m[0m                      [K
+    [38;5;246mFactory's coding agent across terminal and IDEs[0m [K
+                                                    [K
+  Launch DeepSeek Harness [3;38;5;246m(install)[0m                 [K
+    [38;5;246mDeepSeek's open-source agent harness[0m            [K
+                                                    [K
+  Launch Pi [3;38;5;246m(install)[0m                               [K
+    [38;5;246mMinimal AI agent toolkit with plugin support[0m    [K
+                                                    [K
+[1;38;5;246;48;5;236m▸ Launch Poolside [3;38;5;246m(not installed)[0m[0m                   [K
+    [38;5;246mInstall from ]8;;https://github.com/poolsideai/pool\https://github.com/poolsideai/pool]8;;\[0m [K
+                                                    [K
+  Launch Qwen Code [3;38;5;246m(install)[0m                        [K
+    [38;5;246mQwen's AI coding agent with tool use[0m            [K
+                                                    [K
+                                                    [K
+[38;5;244m↑/↓ navigate • enter launch • → configure • esc quit[0m[K[29A                                                        [K
+  [38;5;246mLaunch Codex CLI [3;38;5;246m(not installed)[0m[0m                      [K
+    [38;5;246mOpenAI's open-source coding agent[0m                   [K
+                                                        [K
+  [38;5;246mLaunch Copilot CLI [3;38;5;246m(not installed)[0m[0m                    [K
+    [38;5;246mGitHub's AI coding agent for the terminal[0m           [K
+                                                        [K
+  [38;5;246mLaunch Oh My Pi [3;38;5;246m(not installed)[0m[0m                       [K
+    [38;5;246mAI coding agent with IDE integration[0m                [K
+                                                        [K
+  Launch Cline [3;38;5;246m(install)[0m                                [K
+    [38;5;246mAutonomous coding agent with parallel execution[0m     [K
+                                                        [K
+  [38;5;246mLaunch Droid [3;38;5;246m(not installed)[0m[0m                          [K
+    [38;5;246mFactory's coding agent across terminal and IDEs[0m     [K
+                                                        [K
+  Launch DeepSeek Harness [3;38;5;246m(install)[0m                     [K
+    [38;5;246mDeepSeek's open-source agent harness[0m                [K
+                                                        [K
+[1;48;5;236m▸ Launch Pi [3;38;5;246m(install)[0m[0m                                   [K
+    [38;5;246mPress enter to install[0m                              [K
+                                                        [K
+  [38;5;246mLaunch Poolside [3;38;5;246m(not installed)[0m[0m                       [K
+    [38;5;246mPoolside's software agent for enterprise development[0m[K
+                                                        [K
+  Launch Qwen Code [3;38;5;246m(install)[0m                            [K
+    [38;5;246mQwen's AI coding agent with tool use[0m                [K
+                                                        [K
+                                                        [K
+[38;5;244m↑/↓ navigate • enter launch • → configure • esc quit[0m    [K[29A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;48;5;236m▸ Launch DeepSeek Harness [3;38;5;246m(install)[0m[0m                     [K
+    [38;5;246mPress enter to install[0m                              [K
+
+  Launch Pi [3;38;5;246m(install)[0m                                   [K
+    [38;5;246mMinimal AI agent toolkit with plugin support[0m        [K
+
+
+
+
+
+
+
+
+[29A                                                                       [K
+  [38;5;246mLaunch Codex CLI [3;38;5;246m(not installed)[0m[0m                                     [K
+    [38;5;246mOpenAI's open-source coding agent[0m                                  [K
+                                                                       [K
+  [38;5;246mLaunch Copilot CLI [3;38;5;246m(not installed)[0m[0m                                   [K
+    [38;5;246mGitHub's AI coding agent for the terminal[0m                          [K
+                                                                       [K
+  [38;5;246mLaunch Oh My Pi [3;38;5;246m(not installed)[0m[0m                                      [K
+    [38;5;246mAI coding agent with IDE integration[0m                               [K
+                                                                       [K
+  Launch Cline [3;38;5;246m(install)[0m                                               [K
+    [38;5;246mAutonomous coding agent with parallel execution[0m                    [K
+                                                                       [K
+[1;38;5;246;48;5;236m▸ Launch Droid [3;38;5;246m(not installed)[0m[0m                                         [K
+    [38;5;246mInstall from ]8;;https://docs.factory.ai/cli/getting-started/quickstart\https://docs.factory.ai/cli/getting-started/quickstart]8;;\[0m[K
+                                                                       [K
+  Launch DeepSeek Harness [3;38;5;246m(install)[0m                                    [K
+    [38;5;246mDeepSeek's open-source agent harness[0m                               [K
+                                                                       [K
+  Launch Pi [3;38;5;246m(install)[0m                                                  [K
+    [38;5;246mMinimal AI agent toolkit with plugin support[0m                       [K
+                                                                       [K
+  [38;5;246mLaunch Poolside [3;38;5;246m(not installed)[0m[0m                                      [K
+    [38;5;246mPoolside's software agent for enterprise development[0m               [K
+                                                                       [K
+  Launch Qwen Code [3;38;5;246m(install)[0m                                           [K
+    [38;5;246mQwen's AI coding agent with tool use[0m                               [K
+                                                                       [K
+                                                                       [K
+[38;5;244m↑/↓ navigate • enter launch • → configure • esc quit[0m                   [K[29A                                                        [K
+  [38;5;246mLaunch Codex CLI [3;38;5;246m(not installed)[0m[0m                      [K
+    [38;5;246mOpenAI's open-source coding agent[0m                   [K
+                                                        [K
+  [38;5;246mLaunch Copilot CLI [3;38;5;246m(not installed)[0m[0m                    [K
+    [38;5;246mGitHub's AI coding agent for the terminal[0m           [K
+                                                        [K
+  [38;5;246mLaunch Oh My Pi [3;38;5;246m(not installed)[0m[0m                       [K
+    [38;5;246mAI coding agent with IDE integration[0m                [K
+                                                        [K
+[1;48;5;236m▸ Launch Cline [3;38;5;246m(install)[0m[0m                                [K
+    [38;5;246mPress enter to install[0m                              [K
+                                                        [K
+  [38;5;246mLaunch Droid [3;38;5;246m(not installed)[0m[0m                          [K
+    [38;5;246mFactory's coding agent across terminal and IDEs[0m     [K
+                                                        [K
+  Launch DeepSeek Harness [3;38;5;246m(install)[0m                     [K
+    [38;5;246mDeepSeek's open-source agent harness[0m                [K
+                                                        [K
+  Launch Pi [3;38;5;246m(install)[0m                                   [K
+    [38;5;246mMinimal AI agent toolkit with plugin support[0m        [K
+                                                        [K
+  [38;5;246mLaunch Poolside [3;38;5;246m(not installed)[0m[0m                       [K
+    [38;5;246mPoolside's software agent for enterprise development[0m[K
+                                                        [K
+  Launch Qwen Code [3;38;5;246m(install)[0m                            [K
+    [38;5;246mQwen's AI coding agent with tool use[0m                [K
+                                                        [K
+                                                        [K
+[38;5;244m↑/↓ navigate • enter launch • → configure • esc quit[0m    [K[29A
+
+
+
+
+
+
+[1;38;5;246;48;5;236m▸ Launch Oh My Pi [3;38;5;246m(not installed)[0m[0m                       [K
+    [38;5;246mInstall from ]8;;https://omp.sh\https://omp.sh]8;;\[0m                         [K
+
+  Launch Cline [3;38;5;246m(install)[0m                                [K
+    [38;5;246mAutonomous coding agent with parallel execution[0m     [K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[29A                                                         [K
+  [38;5;246mLaunch Codex CLI [3;38;5;246m(not installed)[0m[0m                       [K
+    [38;5;246mOpenAI's open-source coding agent[0m                    [K
+                                                         [K
+[1;38;5;246;48;5;236m▸ Launch Copilot CLI [3;38;5;246m(not installed)[0m[0m                     [K
+    [38;5;246mInstall from ]8;;https://github.com/features/copilot/cli/\https://github.com/features/copilot/cli/]8;;\[0m[K
+                                                         [K
+  [38;5;246mLaunch Oh My Pi [3;38;5;246m(not installed)[0m[0m                        [K
+    [38;5;246mAI coding agent with IDE integration[0m                 [K
+                                                         [K
+  Launch Cline [3;38;5;246m(install)[0m                                 [K
+    [38;5;246mAutonomous coding agent with parallel execution[0m      [K
+                                                         [K
+  [38;5;246mLaunch Droid [3;38;5;246m(not installed)[0m[0m                           [K
+    [38;5;246mFactory's coding agent across terminal and IDEs[0m      [K
+                                                         [K
+  Launch DeepSeek Harness [3;38;5;246m(install)[0m                      [K
+    [38;5;246mDeepSeek's open-source agent harness[0m                 [K
+                                                         [K
+  Launch Pi [3;38;5;246m(install)[0m                                    [K
+    [38;5;246mMinimal AI agent toolkit with plugin support[0m         [K
+                                                         [K
+  [38;5;246mLaunch Poolside [3;38;5;246m(not installed)[0m[0m                        [K
+    [38;5;246mPoolside's software agent for enterprise development[0m [K
+                                                         [K
+  Launch Qwen Code [3;38;5;246m(install)[0m                             [K
+    [38;5;246mQwen's AI coding agent with tool use[0m                 [K
+                                                         [K
+                                                         [K
+[38;5;244m↑/↓ navigate • enter launch • → configure • esc quit[0m     [K[29A
+[1;38;5;246;48;5;236m▸ Launch Codex CLI [3;38;5;246m(not installed)[0m[0m                       [K
+    [38;5;246mInstall from ]8;;https://developers.openai.com/codex/cli/\https://developers.openai.com/codex/cli/]8;;\[0m[K
+
+  [38;5;246mLaunch Copilot CLI [3;38;5;246m(not installed)[0m[0m                     [K
+    [38;5;246mGitHub's AI coding agent for the terminal[0m            [K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[29A                                                        [K
+  [38;5;246mLaunch Codex CLI [3;38;5;246m(not installed)[0m[0m                      [K
+    [38;5;246mOpenAI's open-source coding agent[0m                   [K
+                                                        [K
+  [38;5;246mLaunch Copilot CLI [3;38;5;246m(not installed)[0m[0m                    [K
+    [38;5;246mGitHub's AI coding agent for the terminal[0m           [K
+                                                        [K
+  [38;5;246mLaunch Oh My Pi [3;38;5;246m(not installed)[0m[0m                       [K
+    [38;5;246mAI coding agent with IDE integration[0m                [K
+                                                        [K
+  Launch Cline [3;38;5;246m(install)[0m                                [K
+    [38;5;246mAutonomous coding agent with parallel execution[0m     [K
+                                                        [K
+  [38;5;246mLaunch Droid [3;38;5;246m(not installed)[0m[0m                          [K
+    [38;5;246mFactory's coding agent across terminal and IDEs[0m     [K
+                                                        [K
+  Launch DeepSeek Harness [3;38;5;246m(install)[0m                     [K
+    [38;5;246mDeepSeek's open-source agent harness[0m                [K
+                                                        [K
+  Launch Pi [3;38;5;246m(install)[0m                                   [K
+    [38;5;246mMinimal AI agent toolkit with plugin support[0m        [K
+                                                        [K
+  [38;5;246mLaunch Poolside [3;38;5;246m(not installed)[0m[0m                       [K
+    [38;5;246mPoolside's software agent for enterprise development[0m[K
+                                                        [K
+  Launch Qwen Code [3;38;5;246m(install)[0m                            [K
+    [38;5;246mQwen's AI coding agent with tool use[0m                [K
+                                                        [K
+                                                        [K
+[38;5;244m↑/↓ navigate • enter launch • → configure • esc quit[0m    [K[29A[1mOllama [38;5;250m0.34.4[0m[0m                                       [K
+                                                    [K
+  Launch ChatGPT                                    [K
+    [38;5;246mUse Ollama models in ChatGPT[0m                    [K
+                                                    [K
+  Launch Claude Code [3;38;5;246m(install)[0m                      [K
+    [38;5;246mAnthropic's coding tool with subagents[0m          [K
+                                                    [K
+  Launch OpenCode [3;38;5;246m(install)[0m                         [K
+    [38;5;246mAnomaly's open-source coding agent[0m              [K
+                                                    [K
+  Launch Hermes Agent [3;38;5;246m(install)[0m                     [K
+    [38;5;246mSelf-improving AI agent built by Nous Research[0m  [K
+                                                    [K
+[1;48;5;236m▸ Launch OpenClaw [3;38;5;246m(install)[0m[0m                         [K
+    [38;5;246mPress enter to install[0m                          [K
+                                                    [K
+  More...                                           [K
+    [38;5;246mShow additional integrations[0m                    [K
+                                                    [K
+                                                    [K
+[38;5;244m↑/↓ navigate • enter launch • → configure • esc quit[0m[K[J[21A
+
+
+
+
+
+
+
+
+
+
+[1;48;5;236m▸ Launch Hermes Agent [3;38;5;246m(install)[0m[0m                     [K
+    [38;5;246mPress enter to install[0m                          [K
+
+  Launch OpenClaw [3;38;5;246m(install)[0m                         [K
+    [38;5;246mPersonal AI with 100+ skills[0m                    [K
+
+
+
+
+
+[21A
+
+
+
+
+
+
+
+[1;48;5;236m▸ Launch OpenCode [3;38;5;246m(install)[0m[0m                         [K
+    [38;5;246mPress enter to install[0m                          [K
+
+  Launch Hermes Agent [3;38;5;246m(install)[0m                     [K
+    [38;5;246mSelf-improving AI agent built by Nous Research[0m  [K
+
+
+
+
+
+
+
+
+[21A
+
+
+
+
+[1;48;5;236m▸ Launch Claude Code [3;38;5;246m(install)[0m[0m                      [K
+    [38;5;246mPress enter to install[0m                          [K
+
+  Launch OpenCode [3;38;5;246m(install)[0m                         [K
+    [38;5;246mAnomaly's open-source coding agent[0m              [K
+
+
+
+
+
+
+
+
+
+
+
+[21A
+
+[1;48;5;236m▸ Launch ChatGPT[0m [38;5;250m(gemma3:1b-it-q4_K_M)[0m              [K
+
+
+  Launch Claude Code [3;38;5;246m(install)[0m                      [K
+    [38;5;246mAnthropic's coding tool with subagents[0m          [K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[21A [K[J[2K[?2004l[?25h[?1002l[?1003l[?1006l[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://MacBook-Air-de-Carmine.local/Users/carminecostoya/Documents/Berkeley/Academics/Fall%202026/AI/Agentic%20AI/Agentic%20AI%20-%20Assignment%204]2;carminecostoya@MacBook-Air-de-Carmine]1;.. Assignment 4]7;file://MacBook-Air-de-Carmine.local/Users/carminecostoya/Documents/Berkeley/Academics/Fall%202026/AI/Agentic%20AI/Agentic%20AI%20-%20Assignment%204\[0m[27m[24m[J[01;32m➜  [36mAgentic AI - Assignment 4[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h
+[K[K
+[K[7m.venv/bin/wiki doctor --offline[27m[27m.[27mv[27me[27mn[27mv[27m/[27mb[27mi[27mn[27m/[27mw[27mi[27mk[27mi[27m [27md[27mo[27mc[27mt[27mo[27mr[27m [27m-[27m-[27mo[27mf[27mf[27ml[27mi[27mn[27me[?1l>[?2004l
+]2;.venv/bin/wiki doctor --offline]1;.venv/bin/wiki{
   "exact_model_installed": true,
   "execution": "local",
   "fts5_passage_count": 73,
@@ -93,7 +767,7 @@ $ wiki doctor  # local checks; Wi-Fi state recorded honestly
     "architecture": "arm64",
     "chip": "Apple M1",
     "cores": "proc 8:0:4:4",
-    "free_disk_gib": 50.32,
+    "free_disk_gib": 40.22,
     "memory": "8 GB",
     "model_identifier": "MacBookAir10,1",
     "model_name": "MacBook Air",
@@ -107,11 +781,11 @@ $ wiki doctor  # local checks; Wi-Fi state recorded honestly
   "model": "gemma3:1b-it-q4_K_M",
   "network": {
     "wifi_device": "en0",
-    "wifi_off": false,
-    "wifi_status": "Wi-Fi Power (en0): On"
+    "wifi_off": true,
+    "wifi_status": "Wi-Fi Power (en0): Off"
   },
-  "offline_confirmed": null,
-  "offline_requested": false,
+  "offline_confirmed": true,
+  "offline_requested": true,
   "ollama_available": true,
   "required_checks_pass": true,
   "sources": [
@@ -143,8 +817,38 @@ $ wiki doctor  # local checks; Wi-Fi state recorded honestly
   "sqlite_version": "3.54.0",
   "wiki_validation_errors": []
 }
+[1m[7m%[27m[1m[0m                                                     [7m.venv/bin/wiki doctor --offline[27m[27m.[27mv[27me[27mn[27mv[27m/[27mb[27mi[27mn[27m/[27mw[27mi[27mk[27mi[27m [27md[27mo[27mc[27mt[27mo[27mr[27m [27m-[27m-[27mo[27mf[27mf[27ml[27mi[27mn[27me[?1l>[?2004l
+]2;.venv/bin/wiki doctor --offline]1;.venv/bin/wiki{
+  "exact_model_installed": true,
+  "execution": "local",
+  "fts5_passage_count": 73,
+  "hardware": {
+    "architecture": "arm64",
+    "chip": "Apple M1",
+    "cores": "proc 8:0:4:4",
+    "free_disk_gib": 40.22,
+    "memory": "8 GB",
+    "model_identifi
+[K[K
+[K[7m.venv/bin/wiki --help[27m
+[7m.venv/bin/wiki ingest ./vault/raw[27m[K[A[27m.[27mv[27me[27mn[27mv[27m/[27mb[27mi[27mn[27m/[27mw[27mi[27mk[27mi[27m [27m-[27m-[27mh[27me[27ml[27mp[1B[27m.[27mv[27me[27mn[27mv[27m/[27mb[27mi[27mn[27m/[27mw[27mi[27mk[27mi[27m [27mi[27mn[27mg[27me[27ms[27mt[27m [27m.[27m/[27mv[27ma[27mu[27ml[27mt[27m/[27mr[27ma[27mw[?1l>[?2004l
+]2;.venv/bin/wiki --help; .venv/bin/wiki ingest ./vault/raw]1;.venv/bin/wikiusage: wiki [-h] [--version] {ingest,search,ask,chat,review,doctor,eval} ...
 
-$ wiki ingest ./vault/raw
+Offline healthcare personal wiki using local Gemma, SQLite FTS5, and verifiable citations.
+
+positional arguments:
+  {ingest,search,ask,chat,review,doctor,eval}
+    ingest              Validate raw sources, rebuild retrieval, and generate wiki pages
+    search              Show matching original passages without calling Gemma
+    ask                 Answer a standalone factual question from retrieved evidence
+    chat                Start the practical study-partner chat
+    review              Inspect and approve generated wiki pages
+    doctor              Check sources, index, local model, device, and wiki integrity
+    eval                Run and save the fixed assignment evaluation
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
 {
   "execution": "local",
   "mode": "ingest",
@@ -156,7 +860,7 @@ $ wiki ingest ./vault/raw
     "structure-costs-2026-08-31": 16,
     "study-guide-2026": 40
   },
-  "wall_seconds": 0.865,
+  "wall_seconds": 0.913,
   "wiki_pages": {
     "drafted": [],
     "generated": [],
@@ -170,27 +874,39 @@ $ wiki ingest ./vault/raw
     ]
   }
 }
-
-$ wiki ask "Which dimensions do the course materials use to compare health systems?" --mode local
-Mode: ask | Execution: local | Model: gemma3:1b-it-q4_K_M
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://MacBook-Air-de-Carmine.local/Users/carminecostoya/Documents/Berkeley/Academics/Fall%202026/AI/Agentic%20AI/Agentic%20AI%20-%20Assignment%204]2;carminecostoya@MacBook-Air-de-Carmine]1;.. Assignment 4]7;file:
+[K[K
+[K[7m.venv/bin/wiki --help[27m
+[7m.venv/bin/wiki ingest ./vault/raw[27m[K[A[27m.[27mv[27me[27mn[27mv[27m/[27mb[27mi[27mn[27m/[27mw[27mi[27mk[27mi[27m [27m-[27m-[27mh[27me[27ml[27mp[1B[27m.[27mv[27me[27mn[27mv[27m/[27mb[
+[K[K
+[K[7m.venv/bin/wiki ask "Which dimensions do the course materials use to compare health systems?" --mode local[27m
+[K
+[7m.venv/bin/wiki ask "Why can an approved healthcare product still fail to reach a patient?" --mode local[27m[K
+[K
+[7m.venv/bin/wiki ask "How does moving from fee-for-service toward value-based payment change provider accountability?" --m[7mo[7mde local[27m[K
+[K
+[7m.venv/bin/wiki ask "What percentage of Chilean patients received same-day primary care in 2026?" --mode local[27m[K[7A[27m.[27mv[27me[27mn[27mv[27m/[27mb[27mi[27mn[27m/[27mw[27mi[27mk[27mi[27m [27ma[27ms[27mk[27m [27m"[27mW[27mh[27mi[27mc[27mh[27m [27md[27mi[27mm[27me[27mn[27ms[27mi[27mo[27mn[27ms[27m [27md[27mo[27m [27mt[27mh[27me[27m [27mc[27mo[27mu[27mr[27ms[27me[27m [27mm[27ma[27mt[27me[27mr[27mi[27ma[27ml[27ms[27m [27mu[27ms[27me[27m [27mt[27mo[27m [27mc[27mo[27mm[27mp[27ma[27mr[27me[27m [27mh[27me[27ma[27ml[27mt[27mh[27m [27ms[27my[27ms[27mt[27me[27mm[27ms[27m?[27m"[27m [27m-[27m-[27mm[27mo[27md[27me[27m [27ml[27mo[27mc[27ma[27ml[2B[27m.[27mv[27me[27mn[27mv[27m/[27mb[27mi[27mn[27m/[27mw[27mi[27mk[27mi[27m [27ma[27ms[27mk[27m [27m"[27mW[27mh[27my[27m [27mc[27ma[27mn[27m [27ma[27mn[27m [27ma[27mp[27mp[27mr[27mo[27mv[27me[27md[27m [27mh[27me[27ma[27ml[27mt[27mh[27mc[27ma[27mr[27me[27m [27mp[27mr[27mo[27md[27mu[27mc[27mt[27m [27ms[27mt[27mi[27ml[27ml[27m [27mf[27ma[27mi[27ml[27m [27mt[27mo[27m [27mr[27me[27ma[27mc[27mh[27m [27ma[27m [27mp[27ma[27mt[27mi[27me[27mn[27mt[27m?[27m"[27m [27m-[27m-[27mm[27mo[27md[27me[27m [27ml[27mo[27mc[27ma[27ml[2B[27m.[27mv[27me[27mn[27mv[27m/[27mb[27mi[27mn[27m/[27mw[27mi[27mk[27mi[27m [27ma[27ms[27mk[27m [27m"[27mH[27mo[27mw[27m [27md[27mo[27me[27ms[27m [27mm[27mo[27mv[27mi[27mn[27mg[27m [27mf[27mr[27mo[27mm[27m [27mf[27me[27me[27m-[27mf[27mo[27mr[27m-[27ms[27me[27mr[27mv[27mi[27mc[27me[27m [27mt[27mo[27mw[27ma[27mr[27md[27m [27mv[27ma[27ml[27mu[27me[27m-[27mb[27ma[27ms[27me[27md[27m [27mp[27ma[27my[27mm[27me[27mn[27mt[27m [27mc[27mh[27ma[27mn[27mg[27me[27m [27mp[27mr[27mo[27mv[27mi[27md[27me[27
+[K[K
+[K[7m.venv/bin/wiki ask "Which dimensions do the course materials use to compare health systems?" --mode local[27m
+[K
+[7m.venv/bin/wiki ask "Why can an approved healthcare product still fail to reach a patient?" --mode local[27m[K
+[K
+[7m.venv/bin/wiki ask "How does moving from fee-for-service toward value-based payment change provider accountability?" --m[7mo[7mde local[27m[K
+[K
+[7m.venv/bin/wiki ask "What percentage of Chilean patients received same-day primary care in 2026?" --mode local[27m[K[7A[27m.[27mv[27me[27mn[27mv[27m/[27mb[27mi[27mn[27m/[27mw[27mi[27mk[27mi[27m [27ma[27ms[27mk[27m [27m"[27mW[27mh[27mi[27mc[27mh[27m [27md[27mi[27mm[27me[27mn[27ms[27mi[27mo[27mn[27ms[27m [27md[27mo[27m [27mt[27mh[27me[27m [27mc[27mo[27mu[27mr[27ms[27me[27m [27mm[27ma[27mt[27me[27mr[27mi[27ma[27ml[27ms[27m [27mu[27ms[27me[27m [27mt[27mo[27m Mode: ask | Execution: local | Model: gemma3:1b-it-q4_K_M
 Role of government, coverage and financing, benefits, delivery organization, payment, cost containment, affordability, equity, technology, quality, and outcomes [S1 — vault/raw/study-guide/Healthcare in the 21st Century Study Guide through September 21 2026.docx, section "August 31 Health-system structure, costs, and comparison"]
-
-$ wiki ask "Why can an approved healthcare product still fail to reach a patient?" --mode local
 Mode: ask | Execution: local | Model: gemma3:1b-it-q4_K_M
 Regulatory approval, coverage, reimbursement, provider adoption, and patient affordability are separate gates. [S1 — vault/raw/study-guide/Healthcare in the 21st Century Study Guide through September 21 2026.docx, section "Coverage is not the same as access"]
-
-$ wiki ask "How does moving from fee-for-service toward value-based payment change provider accountability?" --mode local
 Mode: ask | Execution: local | Model: gemma3:1b-it-q4_K_M
 Moving from fee-for-service to value-based payment changes provider accountability by increasing accountability for cost and quality. [S1 — vault/raw/course-slides/MBA297A_Reimbursement__Value_09.21.26posted.pdf, slide 11]
 
 Value-based models increase accountability for cost and quality, but require capabilities and expose organizations to risks they may not control. [S2 — vault/raw/study-guide/Healthcare in the 21st Century Study Guide through September 21 2026.docx, section "September 21 Reimbursement and value"]
-
-$ wiki ask "What percentage of Chilean patients received same-day primary care in 2026?" --mode local
 Mode: ask | Execution: local | Model: gemma3:1b-it-q4_K_M
 Insufficient evidence: the local sources do not contain enough relevant support to answer this question.
-
-$ wiki search "payment methods from fee for service to two-sided risk" --limit 5
-Mode: search | Execution: local | Model call: none
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://MacBook-Air-de-Carmine.local/Users/carminecostoya/Documents/Berkeley/Academics/Fall%202026/AI/Agentic%20AI/Agentic%20AI%20-%20Assignment%204]2;carminecostoya@MacBook-Air-de-Carmine]1;.. Assignment 4]7;file://MacBook-Air-de-Carmine.local/Users/carminecostoya/Documents/Berkeley/Academics/Fall%202026/AI/Agentic%20AI/Agentic%20AI%20-%20Assignment%204\[0m[27m[24m[J[01;32m➜  [36mAgentic AI - Assignment 4[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h
+[K[K
+[K[7m.venv/bin/wiki search "payment methods from fee for service to two-sided risk" --limit 5[27m[27m.[27mv[27me[27mn[27mv[27m/[27mb[27mi[27mn[27m/[27mw[27mi[27mk[27mi[27m [27ms[27me[27ma[27mr[27mc[27mh[27m [27m"[27mp[27ma[27my[27mm[27me[27mn[27mt[27m [27mm[27me[27mt[27mh[27mo[27md[27ms[27m [27mf[27mr[27mo[27mm[27m [27mf[27me[27me[27m [27mf[27mo[27mr[27m [27ms[27me[27mr[27mv[27mi[27mc[27me[27m [27mt[27mo[27m [27mt[27mw[27mo[27m-[27ms[27mi[27md[27me[27md[27m [27mr[27mi[27ms[27mk[27m"[27m [27m-[27m-[27ml[27mi[27mm[27mi[27mt[27m [27m5[?1l>[?2004l
+]2;.venv/bin/wiki search "payment methods from fee for service to two-sided risk]1;.venv/bin/wikiMode: search | Execution: local | Model call: none
 S1 | vault/raw/course-slides/MBA297A_Reimbursement__Value_09.21.26posted.pdf | slide 10 | score=11.750214
 Continuum of Payment Methods from FFS to 2-sided Risk
 • Since 2010 been using public policies
@@ -233,23 +949,45 @@ S4 | vault/raw/study-guide/Healthcare in the 21st Century Study Guide through Se
 Avoiding an admission can generate shared savings under a population contract while eliminating fee-for-service revenue from the hospital. Hybrid payment creates simultaneous incentives to reduce and preserve volume. [Class 9/21/26; McKinsey, 2019]
 
 S5 | vault/raw/study-guide/Healthcare in the 21st Century Study Guide through September 21 2026.docx | section "September 21 Reimbursement and value" | score=7.724047
-This session connects the money stack to the care journey. Payment signals influence whether products and services exist, where care occurs, which activities clinicians prioritize, and whether organizations invest in data or coordination. Fee-for-service remains dominant because it is simple, deeply embedded, and economically important to incumbents. Value-based models increase accountability for cost and quality but require capabilities and expose organizations to risks they may not control. Value varies by stakeholder, situation, time horizon, and urgency, making standardized payment difficult. Most providers operate in a hybrid environment and will continue to earn under both volume and value models. Public programs often pilot new models first; private organizations adopt, adapt, or invest around those policy signals.
+This session connects the money stack to the care journey. Payment signals influence whether products and services exist, where care occurs, which activities clinicians prioritize, and whether organizations invest in data or coordination. Fee-for-service remains dominant because it is simple, deeply embedded, and economically important to incumbents. Value-based models increase accountability for cost and quality but require capabilities and expose organizations to risks they may not control. Value varies by stakeholder, situation, time horizon, and urgency, making standardized payment difficult. Most providers operate in a hybrid environment and will continue to earn under both volume and value models. Public programs often pilot new models first; private organizations adopt, adapt, or invessures. Set a cost benchmark that the accountable organization can influence and understand. Match downside risk to the organization's capital, data, scale, authority, and clinical capabilities. Check for incentives to avoid high-risk patients, withhold useful care, or shift cost outside the measured scope. Evaluate whether the model can coexist with the organization's remaining fee-for-service business.
 
-
-$ wiki chat  # capability, plan, and follow-up continuity
-Mode: chat | Execution: local | Model: gemma3:1b-it-q4_K_M
+S3 | vault/raw/course-slides/MBA297A_Reimbursement__Value_09.21.26posted.pdf | slide 8 | score=9.044654
+Volume Based or Fee-for-Service Has Been Dominant
+Payment Model for Decades
+• FFS is a straight-forward way of
+paying for healthcare that’s
+embedded across [K
+[K[7m.venv/bin/wiki chat[27m[27m.[27mv[27me[27mn[27mv[27m/[27mb[27mi[27mn[27m/[27mw[27mi[27mk[27mi[27m [27mc[27mh[27ma[27mt[?1l>[?2004l
+]2;.venv/bin/wiki chat]1;.venv/bin/wikiMode: chat | Execution: local | Model: gemma3:1b-it-q4_K_M
 Commands: /clear, /quit
-you> assistant> I can help you brainstorm, draft, plan, and revise ideas using this conversation. When you ask about your healthcare course, I can search the local vault and cite the original passages. Use `wiki ask` for standalone evidence-only answers and `wiki search` to inspect source text directly. A useful start is: ‘Help me compare fee-for-service and value-based payment.’
+you> what can you help me with?
+assistant> I can help you brainstorm, draft, plan, and revise ideas using this conversation. When you ask about your healthcare course, I can search the local vault and cite the original passages. Use `wiki ask` for standalone evidence-only answers and `wiki search` to inspect source text directly. A useful start is: ‘Help me compare fee-for-service and value-based payment.’
 [retrieval=no; Conversational/meta turn does not need notes.]
-you> assistant> Suggestion:
+you> Give me a generic three-step study plan.
+assistant> Suggestion:
 1. Review the key topics.
 2. Practice active recall or sample questions.
 3. Check remaining gaps and plan the next review.
 [retrieval=no; Generic drafting or planning uses conversation context only.]
-you> assistant> Suggestion: review key topics, practice actively, then check remaining gaps.
+you> make that shorter
+assistant> Suggestion: review key topics, practice actively, then check remaining gaps.
 [retrieval=no; Conversational/meta turn does not need notes.]
-you>
-$ wiki eval run  # local Ollama; no hosted API
+you> For brainstorming only, assume healthcare spending will be 30% of GDP in 2034.
+assistant> Suggestion: 1. Briefly discuss the projected healthcare spending trend. 2. Identify key challenges related to cost containment. 3. Propose potential strategies for mitigation.
+[retrieval=no; Conversational/meta turn does not need notes.]
+you> /quit
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://MacBook-Air-de-Carmine.local/Users/carminecostoya/Documents/Berkeley/Academics/Fall%202026/AI/Agentic%20AI/Agentic%20AI%20-%20Assignment%204]2;carminecostoya@MacBook-Air-de-Carmine]1;.. Assignment 4]7;file://MacBook-Air-de-Carmine.local/Users/carminecostoya/Documents/Berkeley/Academics/Fall%202026/AI/Agentic%20AI/Agentic%20AI%20-%20Assignment%204\[0m[27m[24m[J[01;32m➜  [36mAgentic AI - Assignment 4[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h
+[K[K
+[K[7m.venv/bin/wiki ask "What share of GDP do the sources project US healthcare spending could reach in 2034?" --mode local[27m[27m.[27mv[27me[27mn[27mv[27m/[27mb[27mi[27mn[27m/[27mw[27mi[27mk[27mi[27m [27ma[27ms[27mk[27m [27m"[27mW[27mh[27ma[27mt[27m [27ms[27mh[27ma[27mr[27me[27m [27mo[27mf[27m [27mG[27mD[27mP[27m [27md[27mo[27m [27mt[27mh[27me[27m [27ms[27mo[27mu[27mr[27mc[27me[27ms[27m [27mp[27mr[27mo[27mj[27me[27mc[27mt[27m [27mU[27mS[27m [27mh[27me[27ma[27ml[27mt[27mh[27mc[27ma[27mr[27me[27m [27ms[27mp[27me[27mn[27md[27mi[27mn[27mg[27m [27mc[27mo[27mu[27ml[27md[27m [27mr[27me[27ma[27mc[27mh[27m [27mi[27mn[27m [27m2[27m0[27m3[27m4[27m?[27m"[27m [27m-[27m-[27mm[27mo[27md[27me[27m [27ml[27mo[27mc[27ma[27ml[?1l>[?2004l
+]2;.venv/bin/wiki ask  --mode local]1;.venv/bin/wikiMode: ask | Execution: local | Model: gemma3:1b-it-q4_K_M
+US healthcare spending could reach 20.6% of GDP by 2033. [S1 — vault/raw/course-slides/MBA297A_Structure_Costs_Value_08.31.26.pdf, slide 9]
+
+The system is not centrally coordinated. It contains multiple coverage programs, benefit designs, networks, payment rules, and product-distribution channels. This fragmentation increases administrative work and creates opportunities for organizations to profit by navigating complexity. It also makes accountability diffuse because one actor's cost is another actor's revenue. [S2 — vault/raw/study-guide/Healthcare in the 21st Century Study Guide through September 21 2026.docx, section "Why the United States spends more"]
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://MacBook-Air-de-Carmine.local/Users/carminecostoya/Documents/Berkeley/Academics/Fall%202026/AI/Agentic%20AI/Agentic%20AI%20-%20Assignment%204]2;carminecostoya@MacBook-Air-de-Carmine]1;.. Assignment 4]7;file://MacBook-Air-de-Carmine.local/Users/carminecostoya/Documents/Berkeley/Academics/Fall%202026/AI/Agentic%20AI/Agentic%20AI%20-%20Assignment%204\[0m[27m[24m[J[01;32m➜  [36mAgentic AI - Assignment 4[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h
+[K[K
+[K[7mollama --version[27m
+[7m.venv/bin/wiki eval run --offline[27m[K[A[27mo[27ml[27ml[27ma[27mm[27ma[27m [27m-[27m-[27mv[27me[27mr[27ms[27mi[27mo[27mn[1B[27m.[27mv[27me[27mn[27mv[27m/[27mb[27mi[27mn[27m/[27mw[27mi[27mk[27mi[27m [27me[27mv[27ma[27ml[27m [27mr[27mu[27mn[27m [27m-[27m-[27mo[27mf[27mf[27ml[27mi[27mn[27me[?1l>[?2004l
+]2;ollama --version; .venv/bin/wiki eval run --offline]1;ollama]11;?\[6nollama version is 0.34.4
 {
   "ask_results": [
     {
@@ -273,3 +1011,43 @@ $ wiki eval run  # local Ollama; no hosted API
   "mode_checks": "evidence/mode-checks.md",
   "search_hit_count": 5
 }
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://MacBook-Air-de-Carmine.local/Users/carminecostoya/Documents/Berkeley/Academics/Fall%202026/AI/Agentic%20AI/Agentic%20AI%20-%20Assignment%204]2;carminecostoya@MacBook-Air-de-Carmine]1;.. Assignment 4]7;file://MacBook-Air-de-Carmine.local/Users/carminecostoya/Documents/Berkeley/Academics/Fall%202026/AI/Agentic%20AI/Agentic%20AI%20-%20Assignment%204\[0m[27m[24m[J[01;32m➜  [36mAgentic AI - Assignment 4[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h
+[K[K
+[K[7mexit[27m[27me[27mx[27mi[27mt[?1l>[?2004l
+]2;exit]1;exit
+Saving session...completed.
+ Guide through September 21 2026.docx, section "Why the United States spends more"]
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://MacBook-Air-de-Carmine.local/Users/carminecostoya/Documents/Berkeley/Academics/Fall%202026/AI/Agentic%20AI/Agentic%20AI%20-%20Assignment%204]2;carminecostoya@MacBook-Air-de-Carmine]1;.. Assignment 4]7;file://MacBook-Air-de-Carmine.local/Users/carminecostoya/Documents/Berkeley/Academics/Fall%202026/AI/Agentic%20AI/Agentic%20AI%20-%20Assignment%204\[0m[27m[24m[J[01;32m➜  [36mAgentic AI - Assignment 4[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h
+[K[K
+[K[7mollama --version[27m
+[7m.venv/bin/wiki eval run --offline[27m[K[A[27mo[27ml[27ml[27ma[27mm[27ma[27m [27m-[27m-[27mv[27me[27mr[27ms[27mi[27mo[27mn[1B[27m.[27mv[27me[27mn[27mv[27m/[27mb[27mi[27mn[27m/[27mw[27mi[27mk[27mi[27m [27me[27mv[27ma[27ml[27m [27mr[27mu[27mn[27m [27m-[27m-[27mo[27mf[27mf[27ml[27mi[27mn[27me[?1l>[?2004l
+]2;ollama --version; .venv/bin/wiki eval run --offline]1;ollama]11;?\[6nollama version is 0.34.4
+{
+  "ask_results": [
+    {
+      "id": "ask-01",
+      "supported": true
+    },
+    {
+      "id": "ask-02",
+      "supported": true
+    },
+    {
+      "id": "ask-03",
+      "supported": true
+    },
+    {
+      "id": "ask-04",
+      "supported": false
+    }
+  ],
+  "doctor": "evidence/offline/doctor.json",
+  "mode_checks": "evidence/mode-checks.md",
+  "search_hit_count": 5
+}
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://MacBook-Air-de-Carmine.local/Users/carminecostoya/Documents/Berkeley/Academics/Fall%202026/AI/Agentic%20AI/Agentic%20AI%20-%20Assignment%204]2;carminecostoya@MacBook-Air-de-Carmine]1;.. Assignment 4]7;file://MacBook-Air-de-Carmine.local/Users/carminecostoya/Documents/Berkeley/Academics/Fall%202026/AI/Agentic%20AI/Agentic%20AI%20-%20Assignment%204\[0m[27m[24m[J[01;32m➜  [36mAgentic AI - Assignment 4[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h
+[K[K
+[K[7mexit[27m[27me[27mx[27mi[27mt[?1l>[?2004l
+]2;exit]1;exit
+Saving session...completed.
+[1m[7m%[27m[1m[0m                                                                                                                        ]7;file://MacBook-Air-de-Carmine.local/Users/carminecostoya/Documents/Berkeley/Academics/Fall%202026/AI/Agentic%20AI/Agentic%20AI%20-%20Assignment%204]2;carminecostoya@MacBook-Air-de-Carmine]1;.. Assignment 4]7;file://MacBook-Air-de-Carmine.local/Users/carminecostoya/Documents/Berkeley/Academics/Fall%202026/AI/Agentic%20AI/Agentic%20AI%20-%20Assignment%204\[0m[27m[24m[J[01;32m➜  [36mAgentic AI - Assignment 4[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h

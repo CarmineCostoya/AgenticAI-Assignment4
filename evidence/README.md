@@ -6,7 +6,7 @@ This directory stores actual, unedited model outputs from the final local run pl
 
 - `ask/ask-01.md` through `ask/ask-04.md`: fixed ask-mode evidence cards.
 - `mode-checks.md`: chat, follow-up, raw-search, and chat-history-separation checks.
-- `offline/doctor.json`: local model, source hashes, device, and network-interface snapshot. The final capture honestly records `offline_requested: false` and Wi-Fi on, per the user's final instruction.
+- `offline/doctor.json`: local model, source hashes, device, and network-interface snapshot. The final capture records `offline_requested: true`, `offline_confirmed: true`, and Wi-Fi off.
 - `offline/terminal.typescript`: terminal recording captured with macOS `script`.
 - `obsidian/01-note.png`: open reviewed note with sources and related links.
 - `obsidian/02-index.png`: topic-organized index and page list.
@@ -14,7 +14,7 @@ This directory stores actual, unedited model outputs from the final local run pl
 - `source-render-qa.md`: every page/slide render inspection and locator check.
 - `wiki-review.md`: human review and approval record for all five generated notes.
 
-The terminal capture was produced by [`scripts/offline_demo.sh`](../scripts/offline_demo.sh). For the committed run it invokes the local-mode commands without `--offline`, matching the user's final permission; switching those two calls back to `--offline` restores the stricter Wi-Fi gate.
+The terminal capture was recorded with macOS `script` while the commands represented by [`scripts/offline_demo.sh`](../scripts/offline_demo.sh) were run. The committed script uses the strict `--offline` checks and refuses to continue unless macOS confirms Wi-Fi is off.
 
 ## Obsidian Screenshots
 
