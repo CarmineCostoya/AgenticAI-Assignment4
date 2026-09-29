@@ -1,0 +1,67 @@
+{
+  "execution": "local",
+  "mode": "ingest",
+  "model": "gemma3:1b-it-q4_K_M",
+  "passage_count": 73,
+  "source_count": 3,
+  "source_passages": {
+    "reimbursement-value-2026-09-21": 17,
+    "structure-costs-2026-08-31": 16,
+    "study-guide-2026": 40
+  },
+  "wall_seconds": 56.859,
+  "wiki_pages": {
+    "drafted": [],
+    "generated": [
+      "Healthcare Costs and Value",
+      "Reimbursement and Access",
+      "Fee for Service",
+      "Value Based Payment"
+    ],
+    "metrics": {
+      "fee-for-service": {
+        "generated_tokens": 587,
+        "load_duration_seconds": 0.002,
+        "model_size_mb": 838.51,
+        "model_vram_mb": 838.51,
+        "ollama_rss_mb": 958.09,
+        "prompt_tokens": 1859,
+        "total_duration_seconds": 14.434,
+        "wall_seconds": 14.435
+      },
+      "healthcare-costs-and-value": {
+        "generated_tokens": 496,
+        "load_duration_seconds": 0.003,
+        "model_size_mb": 838.51,
+        "model_vram_mb": 838.51,
+        "ollama_rss_mb": 935.12,
+        "prompt_tokens": 1956,
+        "total_duration_seconds": 12.765,
+        "wall_seconds": 12.773
+      },
+      "reimbursement-and-access": {
+        "generated_tokens": 579,
+        "load_duration_seconds": 0.003,
+        "model_size_mb": 838.51,
+        "model_vram_mb": 838.51,
+        "ollama_rss_mb": 960.81,
+        "prompt_tokens": 1661,
+        "total_duration_seconds": 14.046,
+        "wall_seconds": 14.047
+      },
+      "value-based-payment": {
+        "generated_tokens": 595,
+        "load_duration_seconds": 0.003,
+        "model_size_mb": 838.51,
+        "model_vram_mb": 838.51,
+        "ollama_rss_mb": 977.45,
+        "prompt_tokens": 1873,
+        "total_duration_seconds": 14.543,
+        "wall_seconds": 14.544
+      }
+    },
+    "skipped": [
+      "Healthcare System Structure"
+    ]
+  }
+}

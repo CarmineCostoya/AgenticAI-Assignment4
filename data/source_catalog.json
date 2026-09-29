@@ -1,0 +1,38 @@
+{
+  "catalog_version": 1,
+  "sources": [
+    {
+      "source_id": "study-guide-2026",
+      "title": "Healthcare in the 21st Century Study Guide",
+      "path": "vault/raw/study-guide/Healthcare in the 21st Century Study Guide through September 21 2026.docx",
+      "sha256": "691802fcf63808c7e2db9a5f15152da71fd7e98bc3f7eabc588539876641a391",
+      "source_type": "docx",
+      "author": "Carmine Costoya",
+      "date": "2026-09-21",
+      "provenance": "Personal Fall 2026 course study guide compiled from MBA 297A materials.",
+      "permission": "Author-owned and approved for the public assignment repository."
+    },
+    {
+      "source_id": "structure-costs-2026-08-31",
+      "title": "Overview on Healthcare Structure and Cost",
+      "path": "vault/raw/course-slides/MBA297A_Structure_Costs_Value_08.31.26.pdf",
+      "sha256": "64565b21da45f6e668eca7a54b64e328413de7c504cfce895c0ffe2933a3f0ed",
+      "source_type": "pdf",
+      "author": "Kim MacPherson",
+      "date": "2026-08-31",
+      "provenance": "MBA 297A Healthcare in the 21st Century course deck.",
+      "permission": "Instructor material; permission to include unchanged in the public assignment repository confirmed by the student."
+    },
+    {
+      "source_id": "reimbursement-value-2026-09-21",
+      "title": "Connect Money Stack to Care Journey with Reimbursement",
+      "path": "vault/raw/course-slides/MBA297A_Reimbursement__Value_09.21.26posted.pdf",
+      "sha256": "ce54429478c93efe3fc34c15c0adad0071417bfac68db758ce2b068cc8feaaf7",
+      "source_type": "pdf",
+      "author": "Kim MacPherson",
+      "date": "2026-09-21",
+      "provenance": "MBA 297A Healthcare in the 21st Century course deck.",
+      "permission": "Instructor material; permission to include unchanged in the public assignment repository confirmed by the student."
+    }
+  ]
+}

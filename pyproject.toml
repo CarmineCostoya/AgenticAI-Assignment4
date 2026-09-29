@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "haas-healthcare-wiki"
+version = "1.0.0"
+description = "Offline personal healthcare wiki CLI powered by local Gemma and RAG"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "pdfplumber==0.11.7",
+  "python-docx==1.2.0",
+]
+
+[project.scripts]
+wiki = "personal_wiki.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

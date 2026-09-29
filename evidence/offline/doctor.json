@@ -1,0 +1,58 @@
+{
+  "exact_model_installed": true,
+  "execution": "local",
+  "fts5_passage_count": 73,
+  "hardware": {
+    "architecture": "arm64",
+    "chip": "Apple M1",
+    "cores": "proc 8:0:4:4",
+    "free_disk_gib": 50.32,
+    "memory": "8 GB",
+    "model_identifier": "MacBookAir10,1",
+    "model_name": "MacBook Air",
+    "os": "macOS-27.0-arm64-arm-64bit",
+    "python": "3.9.6"
+  },
+  "installed_models": [
+    "gemma3:1b-it-q4_K_M"
+  ],
+  "mode": "doctor",
+  "model": "gemma3:1b-it-q4_K_M",
+  "network": {
+    "wifi_device": "en0",
+    "wifi_off": false,
+    "wifi_status": "Wi-Fi Power (en0): On"
+  },
+  "offline_confirmed": null,
+  "offline_requested": false,
+  "ollama_available": true,
+  "required_checks_pass": true,
+  "sources": [
+    {
+      "actual_sha256": "691802fcf63808c7e2db9a5f15152da71fd7e98bc3f7eabc588539876641a391",
+      "exists": true,
+      "expected_sha256": "691802fcf63808c7e2db9a5f15152da71fd7e98bc3f7eabc588539876641a391",
+      "hash_matches": true,
+      "path": "vault/raw/study-guide/Healthcare in the 21st Century Study Guide through September 21 2026.docx",
+      "source_id": "study-guide-2026"
+    },
+    {
+      "actual_sha256": "64565b21da45f6e668eca7a54b64e328413de7c504cfce895c0ffe2933a3f0ed",
+      "exists": true,
+      "expected_sha256": "64565b21da45f6e668eca7a54b64e328413de7c504cfce895c0ffe2933a3f0ed",
+      "hash_matches": true,
+      "path": "vault/raw/course-slides/MBA297A_Structure_Costs_Value_08.31.26.pdf",
+      "source_id": "structure-costs-2026-08-31"
+    },
+    {
+      "actual_sha256": "ce54429478c93efe3fc34c15c0adad0071417bfac68db758ce2b068cc8feaaf7",
+      "exists": true,
+      "expected_sha256": "ce54429478c93efe3fc34c15c0adad0071417bfac68db758ce2b068cc8feaaf7",
+      "hash_matches": true,
+      "path": "vault/raw/course-slides/MBA297A_Reimbursement__Value_09.21.26posted.pdf",
+      "source_id": "reimbursement-value-2026-09-21"
+    }
+  ],
+  "sqlite_version": "3.54.0",
+  "wiki_validation_errors": []
+}

@@ -1,0 +1,61 @@
+{
+  "pages": [
+    {
+      "page_id": "healthcare-system-structure",
+      "title": "Healthcare System Structure",
+      "folder": "Systems",
+      "focus_query": "dimensions structure financing government coverage money flow intermediaries access accountability health systems",
+      "source_ids": ["study-guide-2026", "structure-costs-2026-08-31"],
+      "related": [
+        {"title": "Healthcare Costs and Value", "reason": "System structure shapes spending, access, and how value is judged."},
+        {"title": "Reimbursement and Access", "reason": "Financing arrangements become concrete through coverage and reimbursement decisions."}
+      ]
+    },
+    {
+      "page_id": "healthcare-costs-and-value",
+      "title": "Healthcare Costs and Value",
+      "folder": "Concepts",
+      "focus_query": "cost spending value outcomes access equity prices administration trends tradeoffs",
+      "source_ids": ["study-guide-2026", "structure-costs-2026-08-31"],
+      "related": [
+        {"title": "Healthcare System Structure", "reason": "Fragmented structure changes prices, administration, and accountability."},
+        {"title": "Value Based Payment", "reason": "Value-based payment tries to connect spending with quality and outcomes."}
+      ]
+    },
+    {
+      "page_id": "reimbursement-and-access",
+      "title": "Reimbursement and Access",
+      "folder": "Concepts",
+      "focus_query": "reimbursement coverage regulatory approval true access payment care journey products services affordability",
+      "source_ids": ["study-guide-2026", "reimbursement-value-2026-09-21"],
+      "related": [
+        {"title": "Healthcare System Structure", "reason": "Different sponsors and intermediaries decide what is covered and paid."},
+        {"title": "Fee for Service", "reason": "Fee-for-service is the dominant reimbursement baseline."},
+        {"title": "Value Based Payment", "reason": "Value-based models alter how reimbursement rewards behavior."}
+      ]
+    },
+    {
+      "page_id": "fee-for-service",
+      "title": "Fee for Service",
+      "folder": "Concepts",
+      "focus_query": "fee for service FFS volume dominant payment incentives utilization accountability quality",
+      "source_ids": ["study-guide-2026", "reimbursement-value-2026-09-21"],
+      "related": [
+        {"title": "Reimbursement and Access", "reason": "Fee-for-service determines which delivered services generate payment."},
+        {"title": "Value Based Payment", "reason": "Value-based models are commonly described as alternatives or complements to fee-for-service."}
+      ]
+    },
+    {
+      "page_id": "value-based-payment",
+      "title": "Value Based Payment",
+      "folder": "Concepts",
+      "focus_query": "value based payment outcomes quality shared savings downside risk population accountability transition hybrid",
+      "source_ids": ["study-guide-2026", "reimbursement-value-2026-09-21"],
+      "related": [
+        {"title": "Fee for Service", "reason": "The payment continuum begins with fee-for-service and adds increasing accountability."},
+        {"title": "Reimbursement and Access", "reason": "Payment design influences provider behavior and patient access."},
+        {"title": "Healthcare Costs and Value", "reason": "Value-based models attempt to connect cost with quality and outcomes."}
+      ]
+    }
+  ]
+}

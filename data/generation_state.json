@@ -1,0 +1,50 @@
+{
+  "pages": {
+    "fee-for-service": {
+      "fingerprint": "2e809a9a627aed7b5bb39ebcb76ffce8c4eba560a33a25531e9c0220e0d18a76",
+      "model": "gemma3:1b-it-q4_K_M",
+      "path": "wiki/Concepts/Fee for Service.md",
+      "reviewed_at": "2026-09-29T03:38:16+00:00",
+      "status": "reviewed",
+      "title": "Fee for Service",
+      "updated_at": "2026-09-29T03:35:43+00:00"
+    },
+    "healthcare-costs-and-value": {
+      "fingerprint": "ca846d0baa5d92d1b90503702ad9b03c63aea426051fd352246c9dbb25989d39",
+      "model": "gemma3:1b-it-q4_K_M",
+      "path": "wiki/Concepts/Healthcare Costs and Value.md",
+      "reviewed_at": "2026-09-29T03:38:16+00:00",
+      "status": "reviewed",
+      "title": "Healthcare Costs and Value",
+      "updated_at": "2026-09-29T03:35:15+00:00"
+    },
+    "healthcare-system-structure": {
+      "fingerprint": "72fed11f1fe6e80e7f4bee04411129891e85ac2b2519a4281db2116e246aa67f",
+      "model": "gemma3:1b-it-q4_K_M",
+      "path": "wiki/Systems/Healthcare System Structure.md",
+      "reviewed_at": "2026-09-29T03:38:16+00:00",
+      "status": "reviewed",
+      "title": "Healthcare System Structure",
+      "updated_at": "2026-09-29T03:33:12+00:00"
+    },
+    "reimbursement-and-access": {
+      "fingerprint": "bf9a41a7c4be90b614f6e51a140a9cf8058faff0843c9dc5b7fdcd9de885b8ac",
+      "model": "gemma3:1b-it-q4_K_M",
+      "path": "wiki/Concepts/Reimbursement and Access.md",
+      "reviewed_at": "2026-09-29T03:38:16+00:00",
+      "status": "reviewed",
+      "title": "Reimbursement and Access",
+      "updated_at": "2026-09-29T03:35:29+00:00"
+    },
+    "value-based-payment": {
+      "fingerprint": "6706019596a46a92e5c4873e07eab9b7541374b12f975ece6a876f65dba6b5a5",
+      "model": "gemma3:1b-it-q4_K_M",
+      "path": "wiki/Concepts/Value Based Payment.md",
+      "reviewed_at": "2026-09-29T03:38:16+00:00",
+      "status": "reviewed",
+      "title": "Value Based Payment",
+      "updated_at": "2026-09-29T03:35:58+00:00"
+    }
+  },
+  "version": 1
+}

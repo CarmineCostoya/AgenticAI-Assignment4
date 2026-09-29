@@ -1,0 +1,41 @@
+{
+  "model": "gemma3:1b-it-q4_K_M",
+  "questions": [
+    {
+      "id": "ask-01",
+      "question": "Which dimensions do the course materials use to compare health systems?",
+      "expected_behavior": "Give a grounded list of comparison dimensions.",
+      "expected_sources": ["study-guide-2026", "structure-costs-2026-08-31"],
+      "expected_locators": ["slide 3"]
+    },
+    {
+      "id": "ask-02",
+      "question": "Why can an approved healthcare product still fail to reach a patient?",
+      "expected_behavior": "Explain that approval is distinct from coverage, reimbursement, adoption, and affordability.",
+      "expected_sources": ["study-guide-2026", "reimbursement-value-2026-09-21"],
+      "expected_locators": ["slide 6"]
+    },
+    {
+      "id": "ask-03",
+      "question": "How does moving from fee-for-service toward value-based payment change provider accountability?",
+      "expected_behavior": "Explain the shift from volume payment toward quality, savings, downside risk, and population accountability.",
+      "expected_sources": ["study-guide-2026", "reimbursement-value-2026-09-21"],
+      "expected_locators": ["slides 8-14"]
+    },
+    {
+      "id": "ask-04",
+      "question": "What percentage of Chilean patients received same-day primary care in 2026?",
+      "expected_behavior": "State that the local evidence is insufficient.",
+      "expected_sources": [],
+      "expected_locators": []
+    }
+  ],
+  "search_check": "payment methods from fee for service to two-sided risk",
+  "chat_checks": [
+    "what can you help me with?",
+    "Create a three-step study plan for tomorrow.",
+    "make that shorter",
+    "For brainstorming only, assume healthcare spending will be 30% of GDP in 2034."
+  ],
+  "history_separation_ask": "What share of GDP do the sources project US healthcare spending could reach in 2034?"
+}

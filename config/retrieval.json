@@ -1,0 +1,16 @@
+{
+  "synonyms": {
+    "access": ["reach", "availability", "coverage"],
+    "accountability": ["responsibility", "responsible"],
+    "approval": ["approved", "regulatory"],
+    "cost": ["costs", "spending", "expense", "expenses"],
+    "dimension": ["dimensions", "factor", "factors", "criteria"],
+    "fee": ["fees", "ffs"],
+    "health": ["healthcare", "medical"],
+    "payment": ["payments", "reimbursement", "reimburse"],
+    "provider": ["providers", "clinician", "clinicians"],
+    "risk": ["risks", "downside", "upside"],
+    "structure": ["system", "systems", "organization"],
+    "value": ["outcome", "outcomes", "quality", "vbp"]
+  }
+}
